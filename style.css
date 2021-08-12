@@ -1,0 +1,146 @@
+body{
+    text-align: center;
+}
+
+.profile{
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome{
+    color: blanchedalmond;
+    bottom:0;
+    opacity: 0.83;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+h1{
+    font-size: 40px;
+    line-height: 1.2;
+    font-family:fantasy;
+    font-weight: 300px;
+}
+
+#name{
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: cursive;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 300px;
+    line-height: 1.2;
+    font-family: monospace;
+}
+
+#bio{
+    padding:50px;
+    font-size: 42px;
+    text-align: center;
+}
+
+.line{
+    height: 6px;
+    background-color: currentColor;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p{
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.2;
+}
+
+.parallax-inner{
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.menu{
+    list-style: none; 
+    font-family: sans-serif;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    background-color: floralwhite;
+    width: 100%;
+}
+
+.links{
+    color: darkslateblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    display: inline;
+}
+
+.links:hover{
+    font-size: 25px;
+    background-color: cornsilk;
+    text-decoration: underline;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: crimson;
+}
+
+.articles: hover{
+    color: #ad1717;
+    text-decoration: underline;
+}
+
+.articles{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+#writings a{
+    text-shadow: none !important;
+    text-decoration: underline !important;
+}
+
+#contacts2{
+    background: cornsilk;
+}
+
+.contacts2{
+    display: inline;
+}
+
+.contacts2 a{
+    color: #075b5e;
+    text-shadow: none;
+}
+
+#writings{
+    margin-bottom: 50px;
+}
+
+.my_nav_bar{
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+
+input{
+    background-color: beige;
+}
